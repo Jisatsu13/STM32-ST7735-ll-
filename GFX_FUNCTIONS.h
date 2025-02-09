@@ -19,6 +19,7 @@ void drawRoundRect(SPI_TypeDef *SPIx, int16_t x, int16_t y, int16_t w, int16_t h
 void fillRoundRect(SPI_TypeDef *SPIx, int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, uint16_t color);
 void drawTriangle(SPI_TypeDef *SPIx, int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
 void fillTriangle(SPI_TypeDef *SPIx, int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
+void fillScreen(SPI_TypeDef *SPIx, uint16_t color);
 
 
 #endif /* INC_GFX_FUNCTIONS_H_ */
