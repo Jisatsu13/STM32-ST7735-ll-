@@ -1,6 +1,9 @@
 #ifndef INC_GFX_FUNCTIONS_H_
 #define INC_GFX_FUNCTIONS_H_
 
+#include "ST7735.h"
+#include "stdint.h"
+#include "stdlib.h"
 
 void drawPixel(SPI_TypeDef *SPIx, int16_t x, int16_t y, uint16_t color);
 void drawFastHLine(SPI_TypeDef *SPIx, int16_t x, int16_t y, int16_t h, uint16_t color);
